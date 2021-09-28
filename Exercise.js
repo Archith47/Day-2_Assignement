@@ -1,5 +1,5 @@
 let copy;
-copy=() => "the text is copied";
+copy=() => console.log("copied");
 let cut =() => "the text was cut";
 function write() {
     var x = document.getElementById("myInput").value;
