@@ -1,14 +1,18 @@
 <html>
-  <head>
-  </head>
+  <head> </head>
   <body>
     <button id="button" onclick="console.log('selected yes')">YES</button>
     <p>Write something .</p>
-    <input type="text1" id="myInput" oninput="write()">
+    <input type="text" id="myInput" oninput="write()" />
+    <input
+      type="text"
+      onpaste="paste()"
+      value="paste something in here"
+      size="400"
+    />
+    <input type="text" oncopy="copy()" value="copy this text" />
+    <input type="text" oncut="cut()" value="cut  this text" />
 
-    <input type="text2" oncopy="copy()" value="copy this text">
-    <input type="text3" oncut="cut()" value="cut  this text">
-
-    <script src="Exercise.js"> </script>
+    <script src="Exercise.js"></script>
   </body>
 </html>
