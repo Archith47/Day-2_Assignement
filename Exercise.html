@@ -2,9 +2,12 @@
   <head> </head>
   <body>
     <button id="button" onclick="console.log('selected yes')">YES</button>
-    <p>Write something .</p>
-    <input type="text" id="myInput" oninput="write()" />
-    <input
+    <p>Write something in the text field to trigger a function.</p>
+
+    <input type="text" id="myInput" oninput="myFunction()">
+    
+    <p id="demo"></p>
+        <input
       type="text"
       onpaste="paste()"
       value="paste something in here"
